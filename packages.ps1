@@ -12,9 +12,7 @@ $apps = @(
 Write-Output `n "Installing apps..." `n
 
 foreach ($app in $apps) {
-
     winget install $app
-
 }
 
 Write-Output `n "Done!" `n
