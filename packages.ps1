@@ -3,8 +3,10 @@
 
 
 $apps = @(
-  firefox
-  spotify
+  Mozilla.Firefox
+  Spotify.Spotify
+  KeePassXCTeam.KeePassXC
+  #EpicGames.EpicGamesLauncher
 )
 
 Write-Output `n "Installing apps..." `n
