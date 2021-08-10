@@ -6,6 +6,7 @@ $apps = @(
   Mozilla.Firefox
   Spotify.Spotify
   KeePassXCTeam.KeePassXC
+  Dell.CommandUpdate
   #EpicGames.EpicGamesLauncher
 )
 
