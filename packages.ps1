@@ -7,6 +7,7 @@ $apps = @(
   Spotify.Spotify
   KeePassXCTeam.KeePassXC
   OpenVPNTechnologies.OpenVPNConnect
+  Python.Python3
   #Dell.CommandUpdate
   #EpicGames.EpicGamesLauncher
 )
