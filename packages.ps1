@@ -10,6 +10,7 @@ $apps = @(
   Python.Python.3
   #Dell.CommandUpdate
   #EpicGames.EpicGamesLauncher
+  #Logitech.Options
 )
 
 Write-Output `n "Installing apps..." `n
