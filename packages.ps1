@@ -3,14 +3,14 @@
 
 
 $apps = @(
-  Mozilla.Firefox
-  Spotify.Spotify
-  KeePassXCTeam.KeePassXC
-  OpenVPNTechnologies.OpenVPNConnect
-  Python.Python.3
-  Dell.CommandUpdate
-  EpicGames.EpicGamesLauncher
-  Logitech.Options
+  "Mozilla.Firefox"
+  "Spotify.Spotify"
+  "KeePassXCTeam.KeePassXC"
+  "OpenVPNTechnologies.OpenVPNConnect"
+  "Python.Python.3"
+  "Dell.CommandUpdate"
+  "EpicGames.EpicGamesLauncher"
+  "Logitech.Options"
 )
 
 Write-Output `n "Installing apps..." `n
