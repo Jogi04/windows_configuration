@@ -2,7 +2,7 @@
 
 
 function 5secstoquit{
-    Write-Output "Removing chosen default apps in 5 seconds...         Ctrl + c to quit"
+    Write-Output "Removing chosen default apps in 5 seconds...          Ctrl + c to quit"
     Start-Sleep 1
 
     $a = 5
