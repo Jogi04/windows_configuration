@@ -141,7 +141,7 @@ Write-Host `n "Removing chosen default apps..." `n
 foreach ($app in $apps) {    
     if (Get-AppxPackage -Name $app -AllUsers) {
         Get-AppxPackage -Name $app -AllUsers | Remove-AppxPackage -AllUsers
-        Write-Host "Removed $($app.replace('*', ''))" -ForegroundColor Green
+        Write-Host "$($app.replace('*', '')) removed" -ForegroundColor Green
     } else {
         Write-Host "$($app.replace('*', '')) is not present on the system" -ForegroundColor Yellow
     }
