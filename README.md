@@ -1,1 +1,1 @@
-## Powershell scripts to configure Windows 10
+## Powershell scripts to configure Windows 10/11
