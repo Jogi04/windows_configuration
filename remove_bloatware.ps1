@@ -134,6 +134,8 @@ $apps = @(
     #"Microsoft.Advertising.Xaml"
 )
 
+
+
 Write-Output `n "Removing chosen default apps..." `n
 
 foreach ($app in $apps) {    
@@ -144,4 +146,5 @@ foreach ($app in $apps) {
         Write-Output "$app is not present on the system" -ForegroundColor Yellow
     }
 }
+
 Write-Output `n "Done!" `n
