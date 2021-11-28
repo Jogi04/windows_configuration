@@ -58,10 +58,14 @@ $apps = @(
     "Microsoft.WindowsReadingList"
     "Microsoft.WindowsSoundRecorder"
     #"Microsoft.WindowsStore"
-    "*Microsoft.Xbox*"
+    "Microsoft.Xbox.TCUI"
+    "Microsoft.XboxGameOverlay"
+    "Microsoft.XboxGameCallableUI"
+    "Microsoft.XboxSpeechToTextOverlay"
+    "Microsoft.XboxIdentityProvider"
     "Microsoft.YourPhone"
     "*Microsoft.Zune*"
-    "*Office*"
+    "*office*"
 
 # non-Microsoft
     "*ACGMediaPlayer*"
@@ -90,6 +94,7 @@ $apps = @(
     "*MarchofEmpires*"
     "*Minecraft*"
     "*Netflix*"
+    "NORDCURRENT.COOKINGFEVER"
     "*OneCalendar*"
     "*PandoraMediaInc*"
     "*PicsArt-PhotoStudio*"
@@ -111,36 +116,12 @@ $apps = @(
     "*Wunderlist*"
     "*XING*"
     
-    
-    
-    "CAF9E577.Plex"  
-    "ClearChannelRadioDigital.iHeartRadio"
-    "D52A8D61.FarmVille2CountryEscape"
-    "D5EA27B7.Duolingo-LearnLanguagesforFree"
-    "DB6EA5DB.CyberLinkMediaSuiteEssentials"
-    "Drawboard.DrawboardPDF"
-    "Fitbit.FitbitCoach"
-    "GAMELOFTSA.Asphalt8Airborne"
-    "KeeperSecurityInc.Keeper"
-    "NORDCURRENT.COOKINGFEVER"
-    "PandoraMediaInc.29680B314EFC2"
-    "Playtika.CaesarsSlotsFreeCasino"
-    "ShazamEntertainmentLtd.Shazam"
-    "SlingTVLLC.SlingTV"
-    "TheNewYorkTimes.NYTCrossword"
-    "ThumbmunkeysLtd.PhototasticCollage"
-    "TuneIn.TuneInRadio"
-    "WinZipComputing.WinZipUniversal"
-    "XINGAG.XING"
-    "flaregamesGmbH.RoyalRevolt2"
-    
 
     # apps which cannot be removed using Remove-AppxPackage
     #"Microsoft.BioEnrollment"
     #"Microsoft.MicrosoftEdge"
     #"Microsoft.Windows.Cortana"
     #"Microsoft.XboxGameCallableUI"
-    #"Microsoft.XboxIdentityProvider"
 
     # apps which other apps depend on
     #"Microsoft.Advertising.Xaml"
