@@ -13,9 +13,13 @@ function 5secstoquit{
         }
 }
 
+
 5secstoquit
 
+
+
 $apps = @(
+
 # default Windows 10 apps
     "Microsoft.3DBuilder"
     "Microsoft.Appconnector"
@@ -69,6 +73,7 @@ $apps = @(
     "*Microsoft.Zune*"
     "*office*"
 
+
 # non-Microsoft
     "*ACGMediaPlayer*"
     "*ActiproSoftwareLLC*"
@@ -119,12 +124,13 @@ $apps = @(
     "*XING*"
     
 
-    # apps which cannot be removed using Remove-AppxPackage
+# apps which cannot be removed using Remove-AppxPackage
     #"Microsoft.BioEnrollment"
     #"Microsoft.MicrosoftEdge"
     #"Microsoft.XboxGameCallableUI"
 
-    # apps which other apps depend on
+
+# apps which other apps depend on
     #"Microsoft.Advertising.Xaml"
 )
 
