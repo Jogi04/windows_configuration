@@ -1,11 +1,11 @@
 ﻿#This script removes Windows 10 bloatware. Comment certain packages out if you don't want them to get removed!
 
 
-function 10secstoquit{
-    Write-Output "Removing chosen default apps in 10 seconds...         Ctrl + c to quit"
+function 5secstoquit{
+    Write-Output "Removing chosen default apps in 5 seconds...         Ctrl + c to quit"
     Start-Sleep 1
 
-    $a = 10
+    $a = 5
     while ( $a -gt 1){
         $a--
         Write-Output "Removing chosen default apps in $a seconds...          Ctrl + c to quit"
@@ -13,7 +13,7 @@ function 10secstoquit{
         }
 }
 
-10secstoquit
+5secstoquit
 
 $apps = @(
 # default Windows 10 apps
