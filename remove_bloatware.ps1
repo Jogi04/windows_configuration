@@ -24,6 +24,7 @@ $apps = @(
     "Microsoft.ConnectivityStore"
     "Microsoft.FreshPaint"
     "Microsoft.GamingServices"
+    "Microsoft.GamingApp"
     "Microsoft.GetHelp"
     "Microsoft.Getstarted"
     "Microsoft.Messaging"
@@ -43,6 +44,7 @@ $apps = @(
     "Microsoft.ScreenSketch"
     "Microsoft.SkypeApp"
     "Microsoft.StorePurchaseApp"
+    "Microsoft.Todos"
     "Microsoft.Wallet"
     "Microsoft.WindowsAlarms"
     #"Microsoft.WindowsCalculator"
@@ -120,7 +122,6 @@ $apps = @(
     # apps which cannot be removed using Remove-AppxPackage
     #"Microsoft.BioEnrollment"
     #"Microsoft.MicrosoftEdge"
-    #"Microsoft.Windows.Cortana"
     #"Microsoft.XboxGameCallableUI"
 
     # apps which other apps depend on
