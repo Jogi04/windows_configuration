@@ -136,15 +136,15 @@ $apps = @(
 
 
 
-Write-Output `n "Removing chosen default apps..." `n
+Write-Host `n "Removing chosen default apps..." `n
 
 foreach ($app in $apps) {    
     if (Get-AppxPackage -Name $app -AllUsers) {
         Get-AppxPackage -Name $app -AllUsers | Remove-AppxPackage -AllUsers
-        Write-Output "Removed $app" -ForegroundColor Green
+        Write-Host "Removed $app" -ForegroundColor Green
     } else {
-        Write-Output "$app is not present on the system" -ForegroundColor Yellow
+        Write-Host "$app is not present on the system" -ForegroundColor Yellow
     }
 }
 
-Write-Output `n "Done!" `n
+Write-Host `n "Done!" `n
