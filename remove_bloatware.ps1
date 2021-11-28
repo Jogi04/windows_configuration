@@ -130,10 +130,12 @@ $apps = @(
 
 Write-Output `n "Removing chosen default apps..." `n
 
-foreach ($app in $apps) {
-    Write-Output "Removing $app ..."
-
-    Get-AppxPackage -Name $app -AllUsers | Remove-AppxPackage -AllUsers
-
+foreach ($app in $apps) {    
+    if (Get-AppxPackage -Name $app -AllUsers) {
+        Get-AppxPackage -Name $app -AllUsers | Remove-AppxPackage -AllUsers
+        Write-Output "Removed $app"
+    } else {
+        Write-Output "$app is not present on the system"
+    }
 }
 Write-Output `n "Done!" `n
