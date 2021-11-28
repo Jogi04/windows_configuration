@@ -1,4 +1,4 @@
-﻿#This script removes Windows 10 bloatware. Comment certain packages out if you don't want them to get removed!
+﻿#This script removes Windows 10/11 bloatware. Comment certain packages out if you don't want them to get removed!
 
 
 function 5secstoquit{
@@ -20,7 +20,7 @@ function 5secstoquit{
 
 $apps = @(
 
-# default Windows 10 apps
+# default Windows 10/11 apps
     "Microsoft.3DBuilder"
     "Microsoft.Appconnector"
     "*Microsoft.Bing*"
