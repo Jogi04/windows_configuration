@@ -19,11 +19,7 @@ $apps = @(
 # default Windows 10 apps
     "Microsoft.3DBuilder"
     "Microsoft.Appconnector"
-    "Microsoft.BingFinance"
-    "Microsoft.BingNews"
-    "Microsoft.BingSports"
-    "Microsoft.BingTranslator"
-    "Microsoft.BingWeather"
+    "*Microsoft.Bing*"
     "Microsoft.FreshPaint"
     "Microsoft.GamingServices"
     "Microsoft.Microsoft3DViewer"
@@ -48,17 +44,9 @@ $apps = @(
     "Microsoft.WindowsPhone"
     "Microsoft.WindowsSoundRecorder"
     #"Microsoft.WindowsStore"
-    "Microsoft.Xbox.TCUI"
-    "Microsoft.XboxApp"
-    "Microsoft.XboxGameOverlay"
-    "Microsoft.XboxGamingOverlay"
-    "Microsoft.XboxSpeechToTextOverlay"
+    "*Microsoft.Xbox*"
     "Microsoft.YourPhone"
-    "Microsoft.ZuneMusic"
-    "Microsoft.ZuneVideo"
-
-
-# Threshold 2 apps
+    "*Microsoft.Zune*"
     "Microsoft.CommsPhone"
     "Microsoft.ConnectivityStore"
     "Microsoft.GetHelp"
@@ -67,30 +55,19 @@ $apps = @(
     "Microsoft.Office.Sway"
     "Microsoft.OneConnect"
     "Microsoft.WindowsFeedbackHub"
-
-# Creators Update apps
     "Microsoft.Microsoft3DViewer"
     "Microsoft.MSPaint"
-
-
-#Redstone apps
-    "Microsoft.BingFoodAndDrink"
-    "Microsoft.BingHealthAndFitness"
-    "Microsoft.BingTravel"
     "Microsoft.WindowsReadingList"
-
-
-# Redstone 5 apps
     "Microsoft.MixedReality.Portal"
     "Microsoft.ScreenSketch"
-    "Microsoft.XboxGamingOverlay"
-    "Microsoft.YourPhone"
 
 # non-Microsoft
-    "2FE3CB00.PicsArt-PhotoStudio"
-    "46928bounde.EclipseManager"
-    "4DF9E0F8.Netflix"
-    "613EBCEA.PolarrPhotoEditorAcademicEdition"
+    "*PicsArt-PhotoStudio*"
+    "*EclipseManager*"
+    "*Netflix*"
+    "*PolarrPhotoEditorAcademicEdition*"
+    
+    
     "6Wunderkinder.Wunderlist"
     "7EE7776C.LinkedInforWindows"
     "89006A2E.AutodeskSketchBook"
