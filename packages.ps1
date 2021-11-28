@@ -11,6 +11,7 @@ $apps = @(
   "Dell.CommandUpdate"
   "EpicGames.EpicGamesLauncher"
   "Logitech.Options"
+  "ONLYOFFICE.DesktopEditors"
 )
 
 Write-Output `n "Installing apps..." `n
