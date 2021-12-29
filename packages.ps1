@@ -11,6 +11,7 @@ $apps = @(
   "Dell.CommandUpdate"
   "EpicGames.EpicGamesLauncher"
   "ONLYOFFICE.DesktopEditors"
+  "VideoLAN.VLC"
 )
 
 Write-Output `n "Installing apps..." `n
