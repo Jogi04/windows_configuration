@@ -1,4 +1,4 @@
-﻿#This script removes Windows 10/11 bloatware. Comment certain packages out if you don't want them to get removed!
+﻿#This script removes Windows 10/11 bloatware. Comment certain packages out if you don't want them to be removed!
 
 
 function 5secstoquit{
