@@ -12,6 +12,7 @@ $apps = @(
   "EpicGames.EpicGamesLauncher"
   "ONLYOFFICE.DesktopEditors"
   "VideoLAN.VLC"
+  "Microsoft.PowerToys"
 )
 
 Write-Output `n "Installing apps..." `n
